@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9dbe190788f6c0b45924d94dfa55bb56, type: 3}
+  m_Name: Espadazo
+  m_EditorClassIdentifier: Assembly-CSharp::ReinoRunas.SkillData
+  displayName: Espadazo
+  description: Un tajo firme con la espada larga.
+  mpCost: 0
+  target: 0
+  kind: 0
+  power: 10
+  critChance: 0.1
+  statuses: []
+  statModifiers: []
+  curesStatuses: 0
+  atbAfterAction: 0
+  targetAtbChange: 0
+  animation: 0
+  visual: 0
+  color: {r: 0.85, g: 0.9, b: 1, a: 1}
+  isUltimate: 0

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 065e3d9e8577bfb45ba0580c1700f057, type: 3}
+  m_Name: Enemigo_Chaman
+  m_EditorClassIdentifier: Assembly-CSharp::ReinoRunas.UnitData
+  displayName: "Cham\xE1n Goblin"
+  role: Monstruo
+  description: Cura a sus aliados y lanza maldiciones.
+  maxHP: 240
+  maxMP: 90
+  attack: 8
+  defense: 10
+  magic: 22
+  speed: 11
+  basicAttack: {fileID: 11400000, guid: 40c084b524567ab418b8742c0e019e88, type: 2}
+  skills:
+  - {fileID: 11400000, guid: 3d21d4c0d8488ff4b85b48ed383fd5fe, type: 2}
+  - {fileID: 11400000, guid: 8a557ce11c942504f869a59ccd1e4efa, type: 2}
+  - {fileID: 11400000, guid: 72ce6fc79d99042439f53f6550075655, type: 2}
+  skillUseChance: 0.6
+  focusWeakestChance: 0.4

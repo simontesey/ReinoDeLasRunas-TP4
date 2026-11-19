@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9dbe190788f6c0b45924d94dfa55bb56, type: 3}
+  m_Name: GritodeGuerra
+  m_EditorClassIdentifier: Assembly-CSharp::ReinoRunas.SkillData
+  displayName: Grito de Guerra
+  description: "ATQ\u2191 +40% propio por 3 turnos."
+  mpCost: 8
+  target: 4
+  kind: 3
+  power: 0
+  critChance: 0.1
+  statuses: []
+  statModifiers:
+  - stat: 0
+    multiplier: 1.4
+    turns: 3
+  curesStatuses: 0
+  atbAfterAction: 10
+  targetAtbChange: 0
+  animation: 2
+  visual: 5
+  color: {r: 1, g: 0.3, b: 0.2, a: 1}
+  isUltimate: 0

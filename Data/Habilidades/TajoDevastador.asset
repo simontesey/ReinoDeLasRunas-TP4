@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9dbe190788f6c0b45924d94dfa55bb56, type: 3}
+  m_Name: TajoDevastador
+  m_EditorClassIdentifier: Assembly-CSharp::ReinoRunas.SkillData
+  displayName: Tajo Devastador
+  description: "Golpe brutal con todo el peso del cuerpo. Da\xF1o muy alto pero deja
+    a Aldric expuesto (recuperaci\xF3n MUY LENTA)."
+  mpCost: 14
+  target: 0
+  kind: 0
+  power: 22
+  critChance: 0.2
+  statuses: []
+  statModifiers: []
+  curesStatuses: 0
+  atbAfterAction: -55
+  targetAtbChange: 0
+  animation: 0
+  visual: 0
+  color: {r: 1, g: 0.85, b: 0.5, a: 1}
+  isUltimate: 0

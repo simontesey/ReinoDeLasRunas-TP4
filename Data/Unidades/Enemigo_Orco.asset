@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 065e3d9e8577bfb45ba0580c1700f057, type: 3}
+  m_Name: Enemigo_Orco
+  m_EditorClassIdentifier: Assembly-CSharp::ReinoRunas.UnitData
+  displayName: Orco Bruto
+  role: Monstruo
+  description: Lento pero devastador.
+  maxHP: 480
+  maxMP: 40
+  attack: 30
+  defense: 18
+  magic: 4
+  speed: 7
+  basicAttack: {fileID: 11400000, guid: e44d9dafeba6b5c4fb239370dc82d47e, type: 2}
+  skills:
+  - {fileID: 11400000, guid: a106b5f3e57bfb74dbb3ec99d6d013d2, type: 2}
+  - {fileID: 11400000, guid: ff3a6beed9fed294b94e57063334473f, type: 2}
+  skillUseChance: 0.4
+  focusWeakestChance: 0.3

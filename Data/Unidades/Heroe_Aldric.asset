@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 065e3d9e8577bfb45ba0580c1700f057, type: 3}
+  m_Name: Heroe_Aldric
+  m_EditorClassIdentifier: Assembly-CSharp::ReinoRunas.UnitData
+  displayName: Sir Aldric
+  role: "Caballero \xB7 Tanque"
+  description: Caballero de la Guardia Real. Mucha vida y defensa; protege al grupo
+    atrayendo los golpes.
+  maxHP: 340
+  maxMP: 50
+  attack: 24
+  defense: 22
+  magic: 8
+  speed: 8
+  basicAttack: {fileID: 11400000, guid: 29aa416781ebcde4c87c8d0970722de5, type: 2}
+  skills:
+  - {fileID: 11400000, guid: 3e7490ec725da804788bb9066382e551, type: 2}
+  - {fileID: 11400000, guid: fc68da9b7b891da4fbd30b565c9799cd, type: 2}
+  - {fileID: 11400000, guid: 3f0f676068665934ea04a75b1a733424, type: 2}
+  skillUseChance: 0
+  focusWeakestChance: 0

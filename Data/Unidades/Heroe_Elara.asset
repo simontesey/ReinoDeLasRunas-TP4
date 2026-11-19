@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 065e3d9e8577bfb45ba0580c1700f057, type: 3}
+  m_Name: Heroe_Elara
+  m_EditorClassIdentifier: Assembly-CSharp::ReinoRunas.UnitData
+  displayName: Elara
+  role: Maga arcana
+  description: "Hechicera de la torre. Da\xF1o m\xE1gico enorme y estados alterados,
+    pero es fr\xE1gil."
+  maxHP: 180
+  maxMP: 130
+  attack: 9
+  defense: 8
+  magic: 28
+  speed: 12
+  basicAttack: {fileID: 11400000, guid: 800879366907a04408c93f6010865ee5, type: 2}
+  skills:
+  - {fileID: 11400000, guid: 99b683bc5afc02a47a53ab6d4a2a8d42, type: 2}
+  - {fileID: 11400000, guid: 0c7ee6cb55152cb4cb1d2b63c4c27c5e, type: 2}
+  - {fileID: 11400000, guid: c4028460b9d23d94e888214759aa2e10, type: 2}
+  - {fileID: 11400000, guid: c73eddfb33181eb4988d8fd86a661a17, type: 2}
+  skillUseChance: 0
+  focusWeakestChance: 0

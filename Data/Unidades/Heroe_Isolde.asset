@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 065e3d9e8577bfb45ba0580c1700f057, type: 3}
+  m_Name: Heroe_Isolde
+  m_EditorClassIdentifier: Assembly-CSharp::ReinoRunas.UnitData
+  displayName: Isolde
+  role: "Juglaresa \xB7 Apoyo"
+  description: Barda errante. Sus canciones potencian al grupo, debilitan enemigos
+    y manipulan la barra ATB.
+  maxHP: 220
+  maxMP: 100
+  attack: 14
+  defense: 11
+  magic: 18
+  speed: 15
+  basicAttack: {fileID: 11400000, guid: e34f4cf1c8cf6b141abb4368f03d6c30, type: 2}
+  skills:
+  - {fileID: 11400000, guid: a1aa096997ec51e43a82cec5572ca8c5, type: 2}
+  - {fileID: 11400000, guid: c59fd0c34374ba948adee022b03633c3, type: 2}
+  - {fileID: 11400000, guid: e42bff5229509214fb9f8cd4ec2d4435, type: 2}
+  - {fileID: 11400000, guid: 2c9a95c30f0305943b3d85cee4be2156, type: 2}
+  - {fileID: 11400000, guid: 1a22489c00e21614baa3c6eb60c509f2, type: 2}
+  skillUseChance: 0
+  focusWeakestChance: 0

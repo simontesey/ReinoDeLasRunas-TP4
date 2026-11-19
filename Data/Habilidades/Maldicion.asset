@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9dbe190788f6c0b45924d94dfa55bb56, type: 3}
+  m_Name: Maldicion
+  m_EditorClassIdentifier: Assembly-CSharp::ReinoRunas.SkillData
+  displayName: "Maldici\xF3n"
+  description: "ATQ\u2193 y DEF\u2193 (-25%) a un h\xE9roe por 3 turnos."
+  mpCost: 10
+  target: 0
+  kind: 3
+  power: 0
+  critChance: 0.1
+  statuses: []
+  statModifiers:
+  - stat: 0
+    multiplier: 0.75
+    turns: 3
+  - stat: 1
+    multiplier: 0.75
+    turns: 3
+  curesStatuses: 0
+  atbAfterAction: 0
+  targetAtbChange: 0
+  animation: 2
+  visual: 5
+  color: {r: 0.6, g: 0.25, b: 0.8, a: 1}
+  isUltimate: 0

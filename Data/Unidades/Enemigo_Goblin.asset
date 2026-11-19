@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 065e3d9e8577bfb45ba0580c1700f057, type: 3}
+  m_Name: Enemigo_Goblin
+  m_EditorClassIdentifier: Assembly-CSharp::ReinoRunas.UnitData
+  displayName: Goblin Saqueador
+  role: Monstruo
+  description: "R\xE1pido y traicionero."
+  maxHP: 200
+  maxMP: 30
+  attack: 17
+  defense: 9
+  magic: 6
+  speed: 16
+  basicAttack: {fileID: 11400000, guid: c8ee326098e06bc4ea1756389adebe5c, type: 2}
+  skills:
+  - {fileID: 11400000, guid: f3512101b5f736f4ab94aa1a7f8d620a, type: 2}
+  skillUseChance: 0.35
+  focusWeakestChance: 0.6

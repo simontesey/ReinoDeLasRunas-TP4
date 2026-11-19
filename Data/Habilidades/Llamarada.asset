@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9dbe190788f6c0b45924d94dfa55bb56, type: 3}
+  m_Name: Llamarada
+  m_EditorClassIdentifier: Assembly-CSharp::ReinoRunas.SkillData
+  displayName: Llamarada
+  description: Fuego oscuro, 50% de QUEMAR.
+  mpCost: 10
+  target: 0
+  kind: 1
+  power: 12
+  critChance: 0.1
+  statuses:
+  - status: 2
+    chance: 0.5
+    turns: 3
+  statModifiers: []
+  curesStatuses: 0
+  atbAfterAction: 0
+  targetAtbChange: 0
+  animation: 1
+  visual: 1
+  color: {r: 0.9, g: 0.3, b: 1, a: 1}
+  isUltimate: 0
