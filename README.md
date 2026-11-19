@@ -1,5 +1,14 @@
 # ⚔️ REINO DE LAS RUNAS — Prototipo de RPG por turnos con barra ATB (TP4)
 
+## 🎮 Jugar sin Unity (Windows)
+
+1. Descargá el juego compilado: **[ReinoDeLasRunas-Windows.zip](https://github.com/simontesey/ReinoDeLasRunas-TP4/raw/main/Build~/ReinoDeLasRunas-Windows.zip)** (carpeta `Build~` del repositorio).
+2. Descomprimí el .zip (clic derecho → *Extraer todo*).
+3. Abrí **`ReinoDeLasRunas.exe`**. Si Windows muestra "Windows protegió su PC", elegí *Más información → Ejecutar de todas formas* (pasa con cualquier .exe sin firma digital).
+
+Para cerrar el juego: **Alt + F4**.
+
+
 > **Cómo usar este repositorio:** contiene la carpeta del juego para Unity. Creá un proyecto **Unity 6 (6000.3) con la plantilla Universal 3D (URP)**, cloná este repositorio dentro de `Assets/ReinoDeLasRunas` (`git clone <url> Assets/ReinoDeLasRunas`) y abrí la escena `Assets/ReinoDeLasRunas/Scenes/CombateCastillo.unity`. La escena, los ScriptableObjects y los materiales ya vienen generados; si hiciera falta regenerarlos: menú **Reino de las Runas → Construir escena de combate**.
 
 
