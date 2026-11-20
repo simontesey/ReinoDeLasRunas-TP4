@@ -1,5 +1,10 @@
 # ⚔️ REINO DE LAS RUNAS — Prototipo de RPG por turnos con barra ATB (TP4)
 
+## 🌐 Jugar en el navegador
+
+**https://simontesey.itch.io/reino-de-las-runas** — tocá *Run game* y hacé click dentro del juego para usar el teclado.
+(Para recompilar la versión web: menú **Reino de las Runas → Compilar WebGL para itch.io**.)
+
 ## 🎮 Jugar sin Unity (Windows)
 
 1. Descargá el juego compilado: **[ReinoDeLasRunas-Windows.zip](https://github.com/simontesey/ReinoDeLasRunas-TP4/raw/main/Build~/ReinoDeLasRunas-Windows.zip)** (carpeta `Build~` del repositorio).
